@@ -39,4 +39,7 @@ dependencies {
 
     compile rootProject.ext.dependencies["arouter-api"]
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+
+    annotationProcessor project(':LibAptCompiler')
+    compile project(':LibAnnotation')
 }
